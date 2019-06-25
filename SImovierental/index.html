@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="movie.css">
+    <title> SI movie rental</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <button class="navbar-toggler mc-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <a class="navbar-brand   ml" href="home.html">Home image</a>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <input id="long1" type="number email" name="name" placeholder="Phone or email">
+                    </li>
+                    <li class="nav-item">
+                        <input id="long2" type="password" name="name" placeholder="Password">
+                    </li>
+
+
+                    <a href="home.html"><button type="button" class="btn btn-success"> Log In </button></a>
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+        <div class="container-fluid">
+            <div class="row-lg-12 row-sm-12 row-md-12 row-xs-12 index">
+                <div class="col-lg-8 col-sm-8 col-md-8 col-xs-8">
+                    <div class="card-fluid">
+                        <div class="card-body">
+                            <img src="./resources/image/kungfupanda.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/thor.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/shrek.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/titanic.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/terminator.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/scarface.jpg" class="card-img-top" alt="...">
+                            <img src="./resources/image/johnwick.jpeg" class="card-img-top" alt="...">
+                            <img src="./resources/image/nemo.jpg" class="card-img-top" alt="...">
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+                    <div class="left">
+                        <h1 id="create"> Create an account</h1>
+
+                        <h2 id="free"> Its free and always will be.</h2>
+                        <br>
+
+                        <form id="left-form">
+                            <input id="fnames" type="name" name="name" placeholder="First name">
+                            <input id="snames" type="name" name="name" placeholder="Surname">
+                            <br>
+                            <br>
+                            <input id="long1" type="number email" name="name" placeholder="Phone or email">
+                            <br>
+                            <br>
+
+                            <input id="long2" type="password" name="name" placeholder="Password">
+                            <h3 id="birthday"> Birthday</h3>
+
+                            <select>
+                                <option value="Day">Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+
+                            <select>
+                                <option value="Month">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Apr</option>
+                            </select>
+
+                            <select>
+                                <option value="Year">Year</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1994">1994</option>
+                            </select>
+                            <p id="why"> Why do i need my<br> birth certicate?</p>
+                            <div class="check">
+                                <input type="radio" name="gender" value="male" checked> Male
+                                <input type="radio" name="gender" value="female"> Female
+
+                            </div>
+                            <p id="agreement"> By clicking Sign Up, you agree to our Terms, Data Policy and<br> Cookie
+                                Policy.
+                                You may receive SMS notifications from us and<br> can opt out at any time.</p>
+                            <a href="home.html"><button type="button" class="btn btn-success">Sign Up</button></a>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <footer>
+                    About Movies payments Settings &copy2019SIJ
+                </footer>
+                </div>
+        </div>
+
+</body>
+
+</html>
